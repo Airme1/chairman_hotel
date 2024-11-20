@@ -1,0 +1,35 @@
+body{
+    font-family: fantasy;
+}
+
+.hero{
+    height: 100vh;
+    background-image: url("image/chairman-hotel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.carousel img{
+    object-fit: cover;
+}
+
+.image img{
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+li{
+    list-style: none;
+}
